@@ -22,6 +22,13 @@ To create the parser (executable file called 'parser') type:
 
 Notice that when you compile the above files you will notice a message regarding *shift/reduce* conflicts and some warning messages.  The conflicts are indicate that your grammar is ambiguous. The warning messages may ignore them.
 
+To test the parser on a test sLisp program file, say `test.lsp`,  type:
+
+> ./parser < test.lsp
+
+Nota Bene: if your test program has a syntax error, then the parser will output the message *syntax error* when you execute the above command. If the parser does not output that message, then your sLisp program is syntactically correct.
+
+
 ## You are asked to
 
 1. Create a 'README.md' file that includes  the title of the assignment, your full name,  student ID, a statement attesting that this is your own work, and instructions on how to compile the parser. Below is an example of a `README.md` file
@@ -54,11 +61,3 @@ Visit the assignment web page to submit a copy of your archive .zip file.
 ** EMAIL SUBMISSIONS WILL NOT BE ACCEPTED**
 
 **Read the assignment requirements provided in `labDescription.md`**
-
-
-
-To test the parser on a test sLisp program file, say `test.lsp`,  type:
-
-> ./parser < test.lsp
-
-Nota Bene: if your test program has a syntax error, then the parser will output the message *syntax error* when you execute the above command. If the parser does not output that message, then your sLisp program is syntactically correct.
