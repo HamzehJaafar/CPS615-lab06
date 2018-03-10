@@ -14,11 +14,13 @@ When you compile the above files you will notice a message regarding *shift/redu
 
 You are asked to
 * Create a 'README.md' file that includes  the title of the assignment, your full name,  student ID, a statement attesting that this is your own work, and instructions on how to compile the parser. Below is an example of a `README.md` file
-> # LAB06
-> John doe
-> This is my own work.
->
-> To compile the parser...
+```
+# LAB06
+John doe
+This is my own work.
+
+To compile the parser...
+```
 * improve the provided `lexer.l` code as appropriate. You must use this starter code. You are not allowed to create your own new lex code.
 * remove the ambiguity from the grammar
 * introduce grammar rules to accommodate the following new constructs:
