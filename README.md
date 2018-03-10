@@ -8,6 +8,7 @@ In addition to `README.md` you will find three files in this repository:
 * `lexer.l`: an incomplete (but working) lex/flex specification of a lexer for sLisp
 * `parser.y`: an incomplete yacc/bison specification of a parser for sLisp
 * `Makefile`: do not change this file.
+* `test.lsp`: a simple syntactically correct sLisp program.
 
 Below are instructions on how to create and test your parser.
 
