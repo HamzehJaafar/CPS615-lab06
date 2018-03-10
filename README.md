@@ -46,11 +46,11 @@ To compile the parser...
   * an `sexpr` can also be a `vector`. Example of a vector `#(4 3 a #( 1 a) (b c) *s* lol)`. Notice each element in the vector is an `sexpr`
 
 
-## What to submit:
+## What to submit
 
 **Nota Bene**: Before submitting your solution, make sure your parser compiles with the *provided Makefile*.
 
-Create an archive (.zip) file named yourName.zip (where `yourName` represents your actual name) containing the following files:
+Create an archive (.zip) file named `yourName.zip` (where `yourName` represents your actual name) containing the following files:
 * your `README.md` file
 * the provided Makefile
 * your Yacc file
@@ -59,5 +59,3 @@ Create an archive (.zip) file named yourName.zip (where `yourName` represents yo
 Visit the assignment web page to submit a copy of your archive .zip file.
 
 ** EMAIL SUBMISSIONS WILL NOT BE ACCEPTED**
-
-**Read the assignment requirements provided in `labDescription.md`**
