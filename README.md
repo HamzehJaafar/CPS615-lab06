@@ -20,7 +20,7 @@ To create the parser (executable file called 'parser') type:
 
 > make parser
 
-Notice that when you compile the above files you will notice a message regarding *shift/reduce* conflicts and some warning messages.  The conflicts are indicate that your grammar is ambiguous. The warning messages may ignore them.
+Notice that when you compile the above files you will notice a message regarding *shift/reduce* conflicts and some warning messages.  The conflicts are indicate that your grammar is ambiguous. You may ignore the warning messages.
 
 To test the parser on a test sLisp program file, say `test.lsp`,  type:
 
