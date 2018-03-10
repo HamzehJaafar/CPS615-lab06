@@ -58,4 +58,4 @@ Create an archive (.zip) file named `yourName.zip` (where `yourName` represents 
 
 Visit the assignment web page to submit a copy of your archive .zip file.
 
-** EMAIL SUBMISSIONS WILL NOT BE ACCEPTED**
+**EMAIL SUBMISSIONS WILL NOT BE ACCEPTED**
