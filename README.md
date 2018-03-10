@@ -1,3 +1,9 @@
+# CPS615-lab06
+
+**Read the assignment requirements provided in `labDescription.md`**
+
+Below are instructions on how to create and test your parser.
+
 To clean up files type at the command line:
 
 > make clean
