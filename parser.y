@@ -3,7 +3,7 @@
   int yylex();
 %}
 
-%token ID NUM STR OB CB BOOL OVB DP QT
+%token ID NUM STR OB CB DP 
 
 %%                   /* beginning of rules section */
 

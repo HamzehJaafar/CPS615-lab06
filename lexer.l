@@ -27,10 +27,6 @@ whitespace [ \t]+
   if (cmmtFlag==0)
     return STR;
 }
-{boolean} {
-  if (cmmtFlag==0)
-    return BOOL;
-}
 {number} {
   if (cmmtFlag==0)
     return NUM;
@@ -45,7 +41,7 @@ whitespace [ \t]+
 }
 "#(" {
   if (cmmtFlag==0)
-    return OVB;
+    printf("An vector open parenthesis.");
 }
 ")" {
   if (cmmtFlag==0)
@@ -54,14 +50,6 @@ whitespace [ \t]+
 "." {
   if (cmmtFlag==0)
     return DP;
-}
-"'" {
-  if (cmmtFlag==0)
-    return QT;
-}
-"@" {
-  if (cmmtFlag==0)
-    printf("An @: %s\n", yytext);
 }
 {lineComm} { cmmtFlag=1;}
 {newline} {
